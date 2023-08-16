@@ -17,27 +17,27 @@ A smart node can be run on other Unix platforms, but manual installation of depe
 
 With cURL:
 ```
-curl -L https://github.com/rocket-pool/smartnode-install/releases/latest/download/rocketpool-cli-linux-amd64 --create-dirs -o ~/bin/rocketpool && chmod +x ~/bin/rocketpool
+curl -L https://github.com/Seb369888/smartnode-install/releases/latest/download/rocketpool-cli-linux-amd64 --create-dirs -o ~/bin/rocketpool && chmod +x ~/bin/rocketpool
 ```
 
 With wget:
 ```
-mkdir -p ~/bin && wget https://github.com/rocket-pool/smartnode-install/releases/latest/download/rocketpool-cli-linux-amd64 -O ~/bin/rocketpool && chmod +x ~/bin/rocketpool
+mkdir -p ~/bin && wget https://github.com/Seb369888/smartnode-install/releases/latest/download/rocketpool-cli-linux-amd64 -O ~/bin/rocketpool && chmod +x ~/bin/rocketpool
 ```
 
-**Note: you may need to start a new shell session before you can run the `rocketpool` command.**
+**Note: you may need to start a new shell session before you can run the `poolsea` command.**
 
 
 ### MacOS Intel (64 bit)
 
 With cURL:
 ```
-curl -L https://github.com/rocket-pool/smartnode-install/releases/latest/download/rocketpool-cli-darwin-amd64 -o /usr/local/bin/rocketpool && chmod +x /usr/local/bin/rocketpool
+curl -L https://github.com/Seb369888/smartnode-install/releases/latest/download/rocketpool-cli-darwin-amd64 -o /usr/local/bin/rocketpool && chmod +x /usr/local/bin/rocketpool
 ```
 
 With wget:
 ```
-wget https://github.com/rocket-pool/smartnode-install/releases/latest/download/rocketpool-cli-darwin-amd64 -O /usr/local/bin/rocketpool && chmod +x /usr/local/bin/rocketpool
+wget https://github.com/Seb369888/smartnode-install/releases/latest/download/rocketpool-cli-darwin-amd64 -O /usr/local/bin/rocketpool && chmod +x /usr/local/bin/rocketpool
 ```
 
 
@@ -45,12 +45,12 @@ wget https://github.com/rocket-pool/smartnode-install/releases/latest/download/r
 
 With cURL:
 ```
-curl -L https://github.com/rocket-pool/smartnode-install/releases/latest/download/rocketpool-cli-darwin-arm64 -o /opt/homebrew/bin/rocketpool && chmod +x /opt/homebrew/bin/rocketpool
+curl -L https://github.com/Seb369888/smartnode-install/releases/latest/download/rocketpool-cli-darwin-arm64 -o /opt/homebrew/bin/rocketpool && chmod +x /opt/homebrew/bin/rocketpool
 ```
 
 With wget:
 ```
-wget https://github.com/rocket-pool/smartnode-install/releases/latest/download/rocketpool-cli-darwin-arm64 -O /opt/homebrew/bin/rocketpool && chmod +x /opt/homebrew/bin/rocketpool
+wget https://github.com/Seb369888/smartnode-install/releases/latest/download/rocketpool-cli-darwin-arm64 -O /opt/homebrew/bin/rocketpool && chmod +x /opt/homebrew/bin/rocketpool
 ```
 
 
@@ -84,7 +84,7 @@ If you would prefer to check the installation script before running it, you may 
 
 With cURL:
 ```
-curl -L https://github.com/rocket-pool/smartnode-install/releases/latest/download/install.sh -o install.sh
+curl -L https://github.com/Seb369888/smartnode-install/releases/latest/download/install.sh -o install.sh
 chmod +x install.sh
 
 ./install.sh
@@ -93,7 +93,7 @@ rm install.sh
 
 With wget:
 ```
-wget https://github.com/rocket-pool/smartnode-install/releases/latest/download/install.sh -O install.sh
+wget https://github.com/Seb369888/smartnode-install/releases/latest/download/install.sh -O install.sh
 chmod +x install.sh
 
 ./install.sh
@@ -121,9 +121,9 @@ This is required for updated user permissions to take effect (for interacting wi
 
 ### Update Instructions
 
-A complete guide to updating Rocketpool can be found here: https://docs.rocketpool.net/guides/node/updates.html
+A complete guide to updating Poolsea can be found here: https://docs.poolsea.com/docs/guides/running-a-poolsea-node/monitoring-and-maintenance/checking-for-updates
 
-### Running and Using Rocketpool
+### Running and Using Poolsea
 
-Documentation about running and using Rocketpool can be found here: https://docs.rocketpool.net/guides/
+Documentation about running and using Poolsea can be found here: https://docs.poolsea.com/docs/guides/
 
