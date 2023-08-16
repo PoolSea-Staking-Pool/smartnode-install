@@ -1,6 +1,6 @@
-# Rocket Pool - Smart Node Installation
+# Poolsea - Smart Node Installation
 
-This repository contains compiled binaries for the [Rocket Pool smart node](https://github.com/rocket-pool/smartnode) client, as well as the installation script & configuration assets for the smart node service.
+This repository contains compiled binaries for the [Poolsea smart node](https://github.com/rocket-pool/smartnode) client, as well as the installation script & configuration assets for the smart node service.
 
 The smart node client is supported on Linux, MacOS and Windows.
 **Note that a smart node cannot be run locally on Windows at this stage; the Windows client can only be used to manage a remote server.**
@@ -67,7 +67,7 @@ wget https://github.com/rocket-pool/smartnode-install/releases/latest/download/r
 
 ### Automatic
 
-Once you have installed the Rocket Pool smart node client, simply run the `rocketpool service install` command to install the smart node service locally.
+Once you have installed the Poolsea smart node client, simply run the `rocketpool service install` command to install the smart node service locally.
 
 To install to a remote server, use:
 ```
