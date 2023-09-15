@@ -8,7 +8,7 @@ elif [ "$NETWORK" = "prater" ]; then
 elif [ "$NETWORK" = "devnet" ]; then
     MEV_NETWORK="goerli"
 elif [ "$NETWORK" = "pulsechain-mainnet" ]; then
-    MEV_NETWORK="pulsechain-mainnet"
+    MEV_NETWORK="pulsechain_mainnet"
 else
     echo "Unknown network [$NETWORK]"
     exit 1
