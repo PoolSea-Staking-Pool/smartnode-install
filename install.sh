@@ -53,7 +53,7 @@ RP_PATH="$HOME/.rocketpool"
 # The default smart node package version to download
 PACKAGE_VERSION="latest"
 # The default network to run Rocket Pool on
-NETWORK="pulsechain-testnet-v4"
+NETWORK="pulsechain-mainnet"
 
 ##
 # Utils
@@ -114,9 +114,9 @@ fi
 
 # Get package files URL
 if [ "$PACKAGE_VERSION" = "latest" ]; then
-    PACKAGE_URL="https://github.com/RedDuck-Software/smartnode-install/releases/latest/download/rp-smartnode-install.tar.xz"
+    PACKAGE_URL="https://github.com/PoolSea-Staking-Pool/smartnode-install/releases/latest/download/rp-smartnode-install.tar.xz"
 else
-    PACKAGE_URL="https://github.com/RedDuck-Software/smartnode-install/releases/download/$PACKAGE_VERSION/rp-smartnode-install.tar.xz"
+    PACKAGE_URL="https://github.com/PoolSea-Staking-Pool/smartnode-install/releases/download/$PACKAGE_VERSION/rp-smartnode-install.tar.xz"
 fi
 
 
