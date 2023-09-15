@@ -43,6 +43,12 @@ elif [ "$NETWORK" = "pulsechain-testnet-v4" ]; then
     NIMBUS_NETWORK="pulsechain_testnet_v4"
     PRYSM_NETWORK="--pulsechain_testnet_v4"
     TEKU_NETWORK="pulsechain_testnet_v4"
+elif [ "$NETWORK" = "pulsechain-mainnet" ]; then
+    LH_NETWORK="pulsechain-mainnet"
+    LODESTAR_NETWORK="pulsechain-mainnet"
+    NIMBUS_NETWORK="pulsechain-mainnet"
+    PRYSM_NETWORK="--pulsechain-mainnet"
+    TEKU_NETWORK="pulsechain-mainnet"
 else
     echo "Unknown network [$NETWORK]"
     exit 1
